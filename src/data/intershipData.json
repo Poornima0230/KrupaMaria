@@ -1,0 +1,36 @@
+[
+    {
+        "topic": "Summer project at University of Delhi (20 May - 25 June 2016)",
+        "points": [
+            "A reading course on Families of Real Functions and their Convergence Properties.",
+            "Supervisor: Dr. Sanjay Kumar, Professor, University of Delhi."
+        ]
+    },
+    {
+        "topic": "MTTS Level O at IIT Indore (29 May - 24 June 2017)",
+        "points": [
+            "Lectures on Basic Real Analysis, Linear Algebra, Geometry, and Number Theory.",
+            "Gave a student seminar on the Bolzano-Weierstrass theorem."
+        ]
+    },
+    {
+        "topic": "MTTS Level II at IISER Thiruvananthapuram (20 May - 15 June 2019)",
+        "points": [
+            "Lectures on Linear Algebra, Topology, Functional Analysis, and Galois Theory.",
+            "Gave a student seminar on the complex spectral theorem."
+        ]
+    },
+    {
+        "topic": "SOPM at NISER Bhubaneswar (17 - 29 June 2019)",
+        "points": [
+            "Lectures on Functional Analysis, Measure theory, and Galois Theory."
+        ]
+    },
+    {
+        "topic": "Gurukulam at MAHE Manipal (11 - 25 December 2023)",
+        "points": [
+            "Two-week course on Applied Game Theory.",
+            "Conducted annually by Prof. T. E. S. Raghavan, University of Illinois, Chicago. Five students get to stay with Prof. Raghavan under the same roof and indulge in a learning experience reminiscent of the residential school system from India’s Vedic age. "
+        ]
+    }
+]

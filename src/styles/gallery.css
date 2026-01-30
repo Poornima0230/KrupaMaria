@@ -1,0 +1,39 @@
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    flex-wrap: wrap;
+
+    padding: 2rem;
+    gap: 1rem;
+
+    padding-left: 15%;
+}
+
+.images img {
+    width: 30rem
+}
+
+.heading {
+    font-size: 4rem;
+}
+
+.images {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+@media (max-width:990px) {
+    .gallery {
+        padding: 1rem;
+    }
+
+    .images img {
+        width: 43rem;
+    }
+}

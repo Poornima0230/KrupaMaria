@@ -1,0 +1,26 @@
+.home-quote {
+    background-color: white;
+    width: 100%;
+    padding: 5rem;
+    font-style: italic;
+    padding-left: 45%;
+    margin: auto auto;
+
+    line-height: 2.4;
+
+    color: #121212;
+    font-size: 1.8rem;
+}
+
+.author {
+    padding-left: 60%;
+}
+
+@media (max-width:990px) {
+    .home-quote {
+        /* padding: 0; */
+        padding: 5rem 3rem;
+        text-align: center;
+
+    }
+}

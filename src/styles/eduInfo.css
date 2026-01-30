@@ -1,0 +1,48 @@
+.head {
+    font-size: 4.5rem;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    padding-left: 8%;
+
+}
+
+.underline {
+    width: 12rem;
+}
+
+.edu-content {
+    text-align: center;
+    padding: 3rem;
+
+    padding-left: 15%;
+}
+
+.edu-content h3 {
+    font-size: 2rem;
+
+}
+
+.edu-content p {
+    font-size: 1.8rem;
+    text-align: left;
+
+}
+
+@media (max-width:990px) {
+    .heading {
+        padding-left: 0;
+    }
+
+    .edu-content {
+        padding: 2rem;
+    }
+}

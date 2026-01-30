@@ -1,0 +1,47 @@
+.heading {
+    text-transform: capitalize;
+    font-size: 4rem;
+}
+
+.research h3 {
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+.research p {
+    font-size: 1.8rem;
+    padding: 3rem;
+}
+
+.research .sub-heading {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.research ol {
+    font-size: 2rem;
+    padding: 3rem;
+}
+
+ol li {
+    list-style-type: decimal;
+}
+
+
+.research {
+    padding-left: 10%;
+    /* width: 90%; */
+}
+
+.research-content {
+    width: 80%;
+    padding-left: 25%;
+}
+
+@media (max-width:990px) {
+
+    .research-content {
+        padding: 0.5rem;
+        width: 100%
+    }
+}

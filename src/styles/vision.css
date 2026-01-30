@@ -1,0 +1,75 @@
+.vision-container {
+    padding: 3rem;
+    padding-left: 20%;
+    text-align: center;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vision-content {
+    width: 60%;
+    text-align: left;
+
+}
+
+.vision-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    padding-bottom: 4rem;
+}
+
+.vision-heading h2 {
+
+    color: var(--primary);
+    font-size: 5rem;
+}
+
+.vision-heading hr {
+    width: 20%;
+    text-align: center;
+    height: 0.9rem;
+    background-color: var(--primary)
+}
+
+.vision-quote {
+    text-align: center;
+    font-size: 2.3rem;
+}
+
+.vision-content p {
+    font-size: 1.5rem;
+}
+
+
+@media (max-width:990px) {
+    .vision-content {
+        width: 100%;
+        line-height: 1;
+    }
+
+    .vision-heading {
+        padding: 3rem;
+        padding-top: 10rem;
+    }
+
+    .vision-content h3 {
+        line-height: 1.5;
+        font-size: 2.3rem;
+        padding: 3rem;
+    }
+
+    .vision-content p {
+        font-size: 1.9rem;
+        padding: 2rem;
+    }
+
+    .vision-container {
+        padding: 1.5rem;
+    }
+}
