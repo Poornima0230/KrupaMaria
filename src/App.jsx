@@ -17,63 +17,34 @@ import { InternShip } from "./pages/Internship";
 
 function App() {
   useEffect(() => {
-    AOS.init({
-      duration: 1500,
-    });
+    AOS.init({ duration: 1500 });
   }, []);
 
-  const router = createBrowserRouter([
+  const router = createBrowserRouter(
+    [
+      {
+        path: "/",
+        element: <AppLayout />,
+        errorElement: <ErrorPage />,
+        children: [
+          { index: true, element: <Home /> },
+          { path: "vision", element: <Vision /> },
+          { path: "education", element: <Education /> },
+          { path: "research", element: <Research /> },
+          { path: "teaching", element: <Teaching /> },
+          { path: "mentorship", element: <Mentor /> },
+          { path: "gallery", element: <Gallery /> },
+          { path: "contact", element: <Contact /> },
+          { path: "internship", element: <InternShip /> },
+        ],
+      },
+    ],
     {
-      path: "/",
-      element: <AppLayout />,
-      errorElement: <ErrorPage />,
-      children: [
-        {
-          path: "/",
-          element: <Home />,
-        },
-        {
-          path: "/vision",
-          element: <Vision />,
-        },
-        {
-          path: "/education",
-          element: <Education />,
-        },
-        {
-          path: "/research",
-          element: <Research />,
-        },
-        {
-          path: "/teaching",
-          element: <Teaching />,
-        },
-        {
-          path: "/mentorship",
-          element: <Mentor />,
-        },
-        {
-          path: "/gallery",
-          element: <Gallery />,
-        },
-        {
-          path: "/contact",
-          element: <Contact />,
-        },
-        {
-          path: "/internship",
-          element: <InternShip />,
-        },
-      ],
-    },
-    { basename: "/KrupaMaria" },
-  ]);
-
-  return (
-    <>
-      <RouterProvider router={router} />
-    </>
+      basename: "/KrupaMaria",
+    }
   );
+
+  return <RouterProvider router={router} />;
 }
 
 export default App;
